@@ -1,0 +1,17 @@
+﻿Brute Force Algorithm:(Used for first 3 datasets)
+
+
+Description: The brute force algorithm for the Problem exhaustively generates all possible permutations of nodes and calculates the total distance for each permutation to find the shortest route.
+Time Complexity: The time complexity of the brute force algorithm is 
+O(n!), where n is the number of nodes. This is because there are 
+n! possible permutations to consider.
+Space Complexity: The space complexity is 
+O(n) to store the current permutation.
+
+
+Local Search Algorithm (Heuristic): ( Used for the 4th and 5th dataset)
+
+
+Description: The local search algorithm is a heuristic approach that starts with an initial solution and iteratively moves to a neighboring solution that improves the objective function. It continues this process until no further improvements can be made.
+Time Complexity: The time complexity of the local search algorithm depends on the specific implementation and the size of the search space. In general, it is much more efficient than brute force, often polynomial or sub-exponential in the size of the problem.
+Space Complexity: The space complexity depends on the specific implementation, but it typically requires storing the current solution and possibly some additional data structures for optimization.

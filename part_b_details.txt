@@ -1,0 +1,9 @@
+Vehicle Routing Algorithm using Nearest Neighbor
+Time Complexity:
+- Nearest Neighbor Algorithm: O(n^2) where n is the number of customer locations.
+- Writing Delivery Routes: O(n) where n is the number of customer locations.
+- Calculating Total Distance: O(n) where n is the number of customer locations.
+Space Complexity:
+- Nearest Neighbor Algorithm: O(n^2) for storing the distance matrix.
+- Output Dataset: O(n) for storing the delivery routes.
+- Total Distance File: O(1) for storing a single value.
